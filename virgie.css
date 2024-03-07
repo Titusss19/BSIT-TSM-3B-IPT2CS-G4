@@ -1,0 +1,97 @@
+
+        h1{
+            color: rgb(6, 6, 6);
+            text-align: center;
+            margin: auto;
+            font-family:'Times New Roman', Times, serif;
+            text-shadow: 400px;
+            background-color: rgba(81, 74, 70, 0.854);
+        }
+    
+        img {
+            border-image: auto;
+            height: 350px;
+            border-radius: 20px;
+        }
+        #para3{
+            background-color: burlywood;
+            font-size:xx-large;
+        }
+        button{
+            background-color: rgb(79, 34, 2);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        } 
+        #para1{
+            color: rgb(4, 4, 4);
+            text-align:center;
+            font-size: xx-large;
+            background-color: burlywood;
+        }
+        #para2 {
+            text-align:center;
+            font-size: xx-large;
+            background-color: burlywood;
+        }
+        
+        .div{
+            color: rgb(4, 2, 1);
+            font-family:'italic c', Times, serif;
+            font-size: xx-large;
+            background-color: rgba(255, 228, 196, 0.337);
+        }
+
+        div p {
+             background-color: burlywood;
+             text-align:center;
+            
+        }
+        div + p {
+            font-family:'helvetica', Times, serif;
+        }
+        div > p {
+            color: rgb(4, 4, 4);
+        }
+
+        p::first-letter {
+            font-size: xx-large;
+        }
+        h1::first-line {
+            font-variant: small-caps;
+        }
+        h1::first-letter {
+            font-size: xx-large;
+        }
+
+        a[target] {
+             background-color: rgb(239, 238, 241);
+        }
+        h2 {
+            background-color: rgba(223, 227, 230, 0.265);
+            text-align: center;
+        }
+        
+        [class="top"] {
+            background: rgb((255, 42, 0)5, 170, 0);
+        }
+        body {
+            background-image: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/428257629_1441985213086244_2316426839128147478_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=510075&_nc_eui2=AeH5sl8l2epkbAZMbG7W4lvrqfeeLp3aSCep954undpIJ_wREwCCUY0V7bChezmKnlcDJU6NXBmNVREsnWkqIQhp&_nc_ohc=gi96sH4vjAkAX8F1_Xl&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTdi_STFMj947pLnZz3TKxAVGuGqLW55dCGehe9Vaw3Pg&oe=660CDBC8");
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+        ul {
+            background-color: rgba(237, 232, 232, 0.401);
+            font-style: italic;
+            text-align: center;
+        }
+        h4 {
+            color:rgb(8, 8, 8);
+            background-color: rgba(81, 74, 70, 0.854);
+        }   
+       p {
+        color:rgb(8, 8, 8);
+        background-color: rgba(237, 232, 232, 0.401);
+        font-size: medium;
+        
+       }
+        
