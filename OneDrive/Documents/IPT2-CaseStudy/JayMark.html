@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jay Mark</title>
+
+  
+
+
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="WEB.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <div class="header-search">
+        <!--
+          searchbar recommend
+          -->
+          <input type="search" name="search" placeholder="Search " class="input-field" id="searchInput" onfocus="showSuggestions()">
+          <div id="suggestion-container"></div>
+              <!--
+              searchbar recommend
+              -->
+
+        <button class="search-btn" aria-label="Search">
+          <ion-icon name="search-outline"></ion-icon>
+        </button>
+      </div>
+
+      <a href="Case Study.html" class="logo">
+        <!-- <img src="https://cdn-icons-png.flaticon.com/128/4598/4598559.png" alt="logo" width="130" height="31"> -->
+        <h1 class="Glide">Jay Mark</h1>
+      </a>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+
+          <p class="header-action-label">HELLO</p>
+        </button>
+
+        
+
+      </div>
+
+      <button class="nav-open-btn" data-nav-open-btn aria-label="Open Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          
+
+          <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="STATICWEB.html" class="navbar-link">Home</a>
+          </li>
+
+
+          
+
+        
+
+        </ul>
+
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home" style="background-image: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/430035180_1062173884864155_7996031877057299934_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeHh4FkBZFDIVhFcv0kL15lCIX_LW1RQEIQhf8tbVFAQhLy-hLlDCynmhqRDwvUwCmRCZp5z4TZSJf3RSLppSblV&_nc_ohc=Di-YXhsxUnMAX-lXngf&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQFYwC9ZEo2IYDc6Lg0WH-THlJ5FGezcFxGTXwSTR1LRA&oe=660FDD14')">
+        <div class="container">
+
+          <div class="hero-content">
+
+            
+
+            <h2 class="h1 hero-title">Jay Mark </h2>
+
+            <a href="https://www.facebook.com/jaymark.melivo.71/">
+            <button class="btn btn-primary">Facebook</button>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service">
+        <div class="container">
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-item-icon">
+               
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Name</p>
+
+                <p class="service-item-text">Jay Mark B. Melivo</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-item-icon">
+                
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Age</p>
+
+                <p class="service-item-text">20</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-item-icon">
+               
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Address</p>
+
+                <p class="service-item-text">Coral, Ramos, Tarlac</p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-item-icon">
+          
+              </div>
+
+              <div class="service-content">
+                <p class="service-item-title">Gender</p>
+
+                <p class="service-item-text">Male</p>
+                
+              </div>
+            </li>
+
+
+          </ul>
+
+        </div>
+      </section>
+
+      <section class="about" id="about">
+    
+        <div class="about-text">
+          <div class="title">ABOUT ME</div>
+          <p>Hello, I am a third-year student at Tarlac State University pursuing a BSIT major in TSM. 
+            I believe that life is an adventure, and I am always eager to explore new opportunities and challenges.
+
+          </p>
+          
+        </div>
+        
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6TIQedhaELP4wxzv6ONeLe?utm_source=generator&theme=0" width="40%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        
+      </section>
+
+
+
+
+
+      <!-- 
+        - #Favorites
+      -->
+
+      <section class="section SHOES">
+        <div class="container">
+          <h1 class="hero-subtitle">Games Played</h1>
+
+          <ul class="category-list">
+
+          
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="Cod.jpg" alt="NIKE" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Call of Duty Mobile</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="lol.jpg" alt="ADIDAS" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">League of Legends</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="ml.jpg" alt="NB" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Mobile Legends</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="nba.jpg" alt="CON" loading="lazy" width="510"
+                  height="600" class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Nba 2K24</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="valo.jpg" alt="Jewelry" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Valorant</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="gta.jpg" alt="fila" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">GTA V</a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - PHOTO LIB
+      -->
+      <section class="slide">
+        <div class="container">
+          <h1 class="hero-subtitle">My Photos</h1>
+          <div class="slider-wrapper">
+            <button id="prev-slide" class="slide-button material-symbols-rounded">
+              
+            </button>
+            <ul class="image-list">
+              <img class="image-item" src="1.jpg" alt="img-1" />
+              <img class="image-item" src="2.jpg" alt="img-2" />
+              <img class="image-item" src="3.jpg" alt="img-3" />
+              <img class="image-item" src="4.jpg" alt="img-4" />
+              <img class="image-item" src="5.jpg" alt="img-5" />
+              <img class="image-item" src="6.jpg" alt="img-6" />
+              <img class="image-item" src="7.jpg" alt="img-7" />
+              
+            </ul>
+            <button id="next-slide" class="slide-button material-symbols-rounded">
+              
+            </button>
+          </div>
+          <div class="slider-scrollbar">
+            <div class="scrollbar-track">
+              <div class="scrollbar-thumb"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Sports -->
+      <section class="section SHOES">
+        <div class="container">
+          <h1 class="hero-subtitle">My Sports</h1>
+
+          <ul class="category-list">
+
+          
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="bball.jpg" alt="NIKE" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Basketball</a>
+            </li>
+
+            <li class="category-item">
+              <figure class="category-banner">
+                <img src="bad.jpg" alt="ADIDAS" loading="lazy" width="510" height="600"
+                  class="w-100">
+              </figure>
+
+              <a href="#" class="btn btn-secondary">Badminton</a>
+            </li>
+
+            
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="Case Study.html" class="logo">
+            <P class="Footer-logo">JAY MARK</P>
+          </a>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          
+
+          </ul>
+
+        </div>
+
+      
+  
+      <div class="footer-bottom">
+        <div class="container">
+  
+          <p class="copyright">
+            &copy; 2024 <a href="#">JM</a>. All Rights Reserved
+          </p>
+  
+          <ul class="footer-bottom-list">
+  
+            <li>
+              <a href="#" class="footer-bottom-link">Privacy Policy</a>
+            </li>
+  
+            <li>
+              <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+            </li>
+  
+         
+  
+          </ul>
+
+       
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  
+
+</body>
+
+
+
+</html>
