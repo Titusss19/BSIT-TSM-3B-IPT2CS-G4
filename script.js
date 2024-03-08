@@ -94,7 +94,7 @@ window.addEventListener("load", initSlider);
    */
    function showSuggestions() {
 
-    const suggestions = ['Nike', 'Adidas', 'Under Armour', 'Vans'];
+    const suggestions = ['hello', 'hi', 'pictures', 'games'];
 
     const suggestionContainer = document.getElementById('suggestion-container');
     
@@ -138,3 +138,4 @@ function clearSuggestions() {
   /*
    ADDITIONAL
    */
+   
