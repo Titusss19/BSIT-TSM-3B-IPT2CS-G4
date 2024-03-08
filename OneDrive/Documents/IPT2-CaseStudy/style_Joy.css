@@ -1,0 +1,41 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1px;
+  background-color: #f0f0f0;
+  text-align: center;
+}
+header {
+  background-color: #628a4f;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+nav {
+  background-color: #444;
+  padding: 10px;
+  text-align: center;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 10px;
+}
+body {
+        background-image: url(/image/mmm.jpg);
+        background-repeat:no-repeat;
+        height: 170vh;
+        background-size: cover;
+    }
+    .main{
+        background-color: #628a4f;
+        padding: 30px 15px;
+        margin: 9px 0px;
+    }
