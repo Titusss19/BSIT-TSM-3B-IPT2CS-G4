@@ -92,6 +92,11 @@ window.addEventListener("load", initSlider);
 /*
    ADDITIONAL
    */
+   function actionToggle() {
+    const action = document.querySelector('.action');
+    action.classList.toggle('active')
+  }
+  
    function showSuggestions() {
 
     const suggestions = ['hello', 'hi', 'pictures', 'games'];
