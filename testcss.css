@@ -1,0 +1,115 @@
+:root {
+  --color-primary: #3d3d3d;
+  --color-secondary: #ff8e00;
+  --font-primary: 'Inter', sans-serif;
+  --font-size-xl: 2rem;
+  --font-size-l: 1.5rem;
+  --font-size-m: 1rem;
+  --font-size-s: 0.875rem;
+  --spacing-l: 1.5rem;
+  --spacing-m: 1rem;
+  --spacing-s: 0.75rem;
+}
+
+body {
+  font-family: var(--font-primary);
+  background-color: var(--color-primary);
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: var(--spacing-l);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: var(--font-size-xl);
+  margin: 0;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  font-size: var(--font-size-m);
+  padding: var(--spacing-m) var(--spacing-l);
+  border: 1px solid var(--color-secondary);
+  border-radius: 5px;
+  color: #fff;
+  background-color: transparent;
+}
+
+.search-button {
+  font-size: var(--font-size-m);
+  background-color: var(--color-secondary);
+  color: #fff;
+  padding: var(--spacing-m) var(--spacing-l);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.units {
+  display: flex;
+  gap: var(--spacing-m);
+}
+
+.city {
+  font-size: var(--font-size-xl);
+  margin: 0;
+}
+
+.datetime {
+  font-size: var(--font-size-m);
+  color: var(--color-secondary);
+}
+
+.forecast {
+  font-size: var(--font-size-m);
+  color: var(--color-secondary);
+}
+
+.icon {
+  margin-top: var(--spacing-l);
+}
+
+.temperature {
+  font-size: var(--font-size-xl);
+  margin: 0;
+}
+
+.minmax {
+  display: flex;
+  gap: var(--spacing-m);
+  margin-top: var(--spacing-l);
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-m);
+  background-color: #fff;
+  padding: var(--spacing-m);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.card i {
+  font-size: var(--font-size-l);
+}
+
+.card p {
+  font-size: var(--font-size-m);
+  margin: 0;
+}
